@@ -1,0 +1,91 @@
+.general_container{
+    display: flex;
+    justify-content: center;
+}
+
+.container_left{
+    width: 30vw;
+    height: 100vh;
+}
+
+.form_left{
+    display: flex;
+    justify-content: center;
+}
+
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
+.container-right{
+    width: 70vw ;
+}
+
+#img_container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 270px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.heart_img{
+    position: relative;
+    bottom: 270px;
+    left: 20px;
+}
+
+.heart{
+    height: 27px;
+    border-radius: 5px;
+}
+
+.heart:hover{
+    transition: 0.5s;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgba(56, 56, 56, 0.356);
+}
+
+
+.mark_container{
+    position: relative;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif,"Inter";
+    font-weight: bolder;
+}
+
+.name_container{
+    position: relative;
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif,"Inter";
+}
+
+.price_container{
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif,"Inter";
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.teste{
+    display: flex;
+    max-width: 200px;
+}
+
+.cmp{
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+}

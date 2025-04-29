@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    padding: 20px;
+    height: 88px;
+    width: 71px;
+}
+
+.container_geral{
+    display: flex;
+    justify-content: space-around;
+    height: 815px;
+}
+
+.text{
+    width: 473px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container_add{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 473px;
+    height: 700px;
+    margin-left: 460px;
+}
+
+.cadastre{
+    font-style: italic;
+    font-family: sans-serif,"Inter";
+    font-size: 64px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.produtos{
+    font-family: sans-serif,"Inter";
+    font-size: 32px;
+    color:  rgba(114, 114, 114, 1);
+}
+
+label, option{
+    font-family: sans-serif,"Inter";
+    font-weight: 600;
+    color: rgba(114, 114, 114, 1);
+    font-style: italic;
+}
+
+.in_name, .in_desc, .in_mark, .in_value, .in_estq, .in_img{
+    padding-left: 10px;
+    border: none;
+    border-radius: 9px;
+    width: 382px;
+    height: 42px;
+}
+
+
+.boxes{
+    position: absolute;
+    z-index: -1;
+    top: 220px;
+    left: 50px;
+    width: 720px;
+    height: 568px;
+}
